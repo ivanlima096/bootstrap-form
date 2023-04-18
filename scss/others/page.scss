@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../../imgs/mesh-gradient.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.container1 {
+  background-color: $background-color;
+  width: 450px;
+  height: auto;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+}
+
+.topLogo {
+  width: 85px;
+  margin-top: 1rem;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btn {
+  color: $button-color;
+  border: 2px solid $button-color;
+  margin: 0.7rem;
+
+  &:hover {
+    background-color: $button-color;
+    color: white;
+  }
+}
+
+.footer {
+  margin-top: 20px;
+  margin-bottom: -30px;
+  color: $background-color;
+}
